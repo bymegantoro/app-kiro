@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portofolio Bayu Megantoro — Full Stack AI Engineer. Membangun pengalaman digital cerdas dengan AI dan teknologi web modern." />
+  <meta name="author" content="Bayu Megantoro" />
+  <title>Bayu Megantoro — Full Stack AI Engineer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <!-- Animated gradient background -->
+  <div class="bg-gradient" aria-hidden="true">
+    <span class="blob blob--1"></span>
+    <span class="blob blob--2"></span>
+    <span class="blob blob--3"></span>
+  </div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header id="navbar" class="navbar" data-component="navbar">
+    <nav class="navbar__inner container">
+      <a href="#hero" class="navbar__brand">
+        <span class="navbar__logo">BM</span>
+        <span class="navbar__name">Bayu Megantoro</span>
+      </a>
+
+      <ul class="navbar__links" id="navLinks">
+        <li><a href="#hero" class="navbar__link is-active">Home</a></li>
+        <li><a href="#about" class="navbar__link">About</a></li>
+      </ul>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section" data-component="hero">
+      <div class="particles" id="particles" aria-hidden="true"></div>
+
+      <div class="hero__inner container">
+        <div class="hero__content">
+          <span class="hero__badge">
+            <span class="hero__badge-dot"></span>
+            Available for opportunities
+          </span>
+
+          <h1 class="hero__title">
+            Hi, I'm Bayu Megantoro
+          </h1>
+
+          <h2 class="hero__role">
+            <span class="hero__typewriter" id="typewriter"></span><span class="hero__cursor">|</span>
+          </h2>
+
+          <p class="hero__tagline">
+            Membangun pengalaman digital cerdas dengan AI dan teknologi web modern.
+          </p>
+
+          <div class="hero__cta">
+            <a href="#" class="btn btn--primary">
+              <span>Lihat Project</span>
+            </a>
+            <a href="#" class="btn btn--ghost" download>
+              <span>Download Resume</span>
+            </a>
+          </div>
+
+          <ul class="hero__meta">
+            <li><span class="hero__meta-label">Lokasi</span> Jakarta, Indonesia</li>
+            <li><span class="hero__meta-label">Email</span> vita@prestasijunior.org</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__photo glass" id="heroPhoto">
+            <span class="hero__photo-glow" aria-hidden="true"></span>
+            <div class="hero__photo-inner">
+              <img src="assets/bayu.png" alt="Foto Bayu Megantoro" class="hero__photo-img" loading="eager" />
+              <span class="hero__photo-shine" aria-hidden="true"></span>
+            </div>
+            <span class="hero__ring hero__ring--1"></span>
+            <span class="hero__ring hero__ring--2"></span>
+          </div>
+          <div class="hero__float-card glass hero__float-card--1">
+            <span class="hero__float-icon">⚡</span>
+            <div>
+              <strong>5+ Years</strong>
+              <small>Experience</small>
+            </div>
+          </div>
+          <div class="hero__float-card glass hero__float-card--2">
+            <span class="hero__float-icon">🤖</span>
+            <div>
+              <strong>AI Powered</strong>
+              <small>Solutions</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll to about">
+        <span class="hero__scroll-mouse"></span>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section" data-component="about">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__eyebrow">01 — About</span>
+          <h2 class="section__title">Tentang Saya</h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__bio reveal">
+            <p>
+              Bayu Megantoro is a passionate full-stack AI engineer with expertise in
+              frontend development, backend systems, cloud deployment, and AI-powered
+              applications. He specializes in building scalable web platforms,
+              intelligent automation tools, and modern user experiences.
+            </p>
+            <p>
+              He enjoys solving real-world problems through clean architecture and
+              innovative technologies — bridging the gap between powerful AI capabilities
+              and delightful, human-centered products.
+            </p>
+
+            <ul class="about__highlights">
+              <li class="glass about__highlight">
+                <span class="about__highlight-icon">🚀</span>
+                <div>
+                  <strong>Scalable Platforms</strong>
+                  <small>Membangun sistem web yang andal &amp; mudah diskalakan.</small>
+                </div>
+              </li>
+              <li class="glass about__highlight">
+                <span class="about__highlight-icon">🧠</span>
+                <div>
+                  <strong>AI Automation</strong>
+                  <small>Tools otomatisasi cerdas berbasis AI modern.</small>
+                </div>
+              </li>
+              <li class="glass about__highlight">
+                <span class="about__highlight-icon">🎨</span>
+                <div>
+                  <strong>Modern UX</strong>
+                  <small>Antarmuka halus, elegan, dan interaktif.</small>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="about__stats">
+            <div class="glass stat-card reveal" data-count="50">
+              <span class="stat-card__num" data-target="50">0</span><span class="stat-card__plus">+</span>
+              <span class="stat-card__label">Projects Completed</span>
+            </div>
+            <div class="glass stat-card reveal" data-count="5">
+              <span class="stat-card__num" data-target="5">0</span><span class="stat-card__plus">+</span>
+              <span class="stat-card__label">Years Experience</span>
+            </div>
+            <div class="glass stat-card reveal" data-count="30">
+              <span class="stat-card__num" data-target="30">0</span><span class="stat-card__plus">+</span>
+              <span class="stat-card__label">Happy Clients</span>
+            </div>
+            <div class="glass stat-card reveal" data-count="15">
+              <span class="stat-card__num" data-target="15">0</span><span class="stat-card__plus">+</span>
+              <span class="stat-card__label">AI Integrations</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Scripts -->
+  <script src="js/navbar.js" defer></script>
+  <script src="js/hero.js" defer></script>
+  <script src="js/about.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
